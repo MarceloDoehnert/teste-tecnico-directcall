@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Teste DirectCall</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+
+  <header>
+    <p class="nome">Bruno Fortunato</p>
+    <p class="empresa">SIGNALLINK INFORMATICA LTDA</p>
+    <p class="cnpj">02.677.129/0001-64</p>
+  </header>
+
+  <main>
+    <section class="chats-historico">
+      <div class="chat-whatsapp">
+        <p>Histórico de <br>Chat e WhatsApp</p>
+        <div id="operadores-chats-buttons">
+  
+          <button class="filter-chat-operator" title="Operador 1" data-operator="op1">
+            <img src="./images/logo_directcall.png" alt="">
+          </button>
+  
+          <button class="filter-chat-operator" title="Operador 2" data-operator="op2">
+            <img src="./images/logo_directcall2.jpg" alt="">
+          </button>
+  
+          <button class="filter-chat-operator" title="Operador 3" data-operator="op10">
+            <img src="./images/operador1.jpg" alt="">
+          </button>
+        </div>  
+      </div>
+
+      <div id="chat-container"></div>
+
+      <div id="filtered-chat"></div>
+
+      <div class="botao-ver-todos">
+        <button id="botao-ver-todos-chat">Ver todos</button>
+      </div>
+
+    </section>
+
+    <section class="chamadas-historico">
+      <div class="chamadas-gravadas">
+        <p>Histórico de <br>chamadas e chamadas gravadas</p>
+        <div id="operadores-calls-buttons">
+          <button class="filter-calls-operator" title="Operador 1" data-operator="op1">
+            <img src="./images/operador2.jpg" alt="">
+          </button>
+          <button class="filter-calls-operator" title="Operador 2" data-operator="op2">
+            <img src="./images/logo_directcall2.jpg" alt="">
+          </button>
+          <button class="filter-calls-operator" title="Operador 3" data-operator="op3">
+            <img src="./images/operador3.jpg" alt="">
+          </button>
+          <button class="filter-calls-operator" title="Operador 4" data-operator="op4">
+            <img src="./images/logo_directcall2.jpg" alt="">
+          </button>
+          <button class="filter-calls-operator" title="Operador 5" data-operator="op5">
+            <img src="./images/operador4.jpg" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div id="ligacoes-container"></div>
+
+      <div id="filtered-calls"></div>
+
+      <div class="botao-ver-todos">
+        <button id="botao-ver-todas-ligacoes">Ver todos</button>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
